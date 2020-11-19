@@ -3,10 +3,10 @@ This repository includes all files and details that make up the 2020 Fundamental
 
 - Task 1: counts
 - Task 2: dicerolls
-- Task 3:
-- Task 4:
+- Task 3: binomial
+- Task 4: TBD - (not released yet)
 
-Each of the tasks has different challenges and all workings will be documented in the jupyter notebook Tasks_2020 Fundamentals of Data Analysis.ipynb.
+Each of the 4 tasks has different challenges and all workings will be documented in the jupyter notebook Tasks_2020 Fundamentals of Data Analysis.ipynb.
 
 This README includes a high level overview of the repository but for full detail including the code refer to the aforementioned Tasks_2020 Fundamentals of Data Analysis.ipynb. jupyter notebook available within this repository.
 
