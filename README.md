@@ -1,146 +1,31 @@
 # Tasks_2020-Fundamentals-of-Data-Analysis
-This repository includes all files and details that make up the 2020 Fundamentals of Data Analysis Tasks. There are a total of 4 tasks to be complete during the semester;
+Four tasks were received throughout the semester as part of the module 'Fundamentals of Data Analysis 2020'. All four are completed in this jupyter notebook. The four tasks include;
 
-- Task 1: counts
-- Task 2: dicerolls
-- Task 3: binomial
-- Task 4: TBD - (not released yet)
-
-Each of the 4 tasks has different challenges and all workings will be documented in the jupyter notebook Tasks_2020 Fundamentals of Data Analysis.ipynb.
-
-This README includes a high level overview of the repository but for full detail including the code refer to the aforementioned Tasks_2020 Fundamentals of Data Analysis.ipynb. jupyter notebook available within this repository.
-
-***
+- Task 1_counts
+- Task 2_dicerolls
+- Task 3_binomial
+- Task 4_Simpsons_Paradox
 
 <br>
 
-## Task 1_counts
-
-High level detail of the breakdown of Task 1 is provided, for full detail refer to the Tasks_2020 Fundamentals of Data Analysis.ipynb file within this repository.
-
-<br>
-
-### 1.1 Instructions
-
-Task instructions included here.
+### Task 1_counts
+For task one, a function was created to count the number of elements in a list and populate a dictionary with the results.
 
 <br>
 
-### 1.2 Research
-
-First thoughts on the task, the approach to be taken to complete the task and some research into the proposed approach provided.
-
-<br>
-
-### 1.3 Development
-
-Code written to cover the following 4 points;
-
-- Create a list of elements.
-- Create an empty dictionary.
-- Dictionary will be populated from the list.
-- Print the list and dictionary.
+### Task 2_dicerolls
+For task two, code was developed to simulate the number of dice (k) and the number of times (n) the dice were rolled. The code included a function which simulated randomly rolling (k) dice (n) times, keeping track of each total face value. It then returned a dictionary with the number of times each possible total face value occurred and also plotted the results.
 
 <br>
 
-### 1.4 Creating a Function
-
-Using the for loop developed in the development section a function is created here.
-
-<br>
-
-### 1.5 Learnings
-
-The learnings achieved through the completion of task 1 is documented here.
-
-
-***
+### Task 3_binomial
+Using the numpy.random.binomial function coin flipping was simulated. Code was developed to simulate flipping a coin 1,000 times. Interestingly, when the coin was flipped 1,000 times then the number of heads was well approximated by a bell-shaped curve. A plot is provided for demonstration.
 
 <br>
 
-## Task 2_dicerolls
-
-High level detail of the breakdown of Task 2 is provided, for full detail refer to the Tasks_2020 Fundamentals of Data Analysis.ipynb file within this repository.
-
-<br>
-
-### 2.1 Instructions
-
-Task instructions included here.
+### Task 4_Simpsons_Paradox
+Simpson’s Paradox occurs when trends that appear when a dataset is separated into groups reverse when the data are aggregated. It has been proven that with data exhibiting Simpson's paradox it's possible to prove opposite arguments using this same data. In the code above there are 4 positively trending data sets that when aggregated result in a negative trend.
 
 <br>
 
-### 2.2 Research
-
-The task is broken down into 3 parts. Some research into the best approach to complete the three parts is included.
-
-- Part 1) Roll the dice.
-- Part 2) Include a plotting element within the function.
-- Part 3) Create and populate the dictionary.
-
-<br>
-
-### 2.3 Development
-
-The code is discussed and how the three parts were included in the function.
-
-<br>
-
-#### 2.3.1 Part 1) Roll the dice.
-
-Part 1 discussed.
-
-<br>
-
-#### 2.3.2 Part 2) Include a plotting element within the function.
-
-Part 2 discussed.
-
-<br>
-
-#### 2.3.3 Part 3) Create and populate the dictionary.
-
-Part 3 discussed.
-
-<br>
-
-### 2.4 Learnings
-The learnings achieved through the completion of task 2 is documented here.
-
-***
-
-<br>
-
-## Task 3_binomial
-
-High level detail of the breakdown of Task 3 is provided, for full detail refer to the Tasks_2020 Fundamentals of Data Analysis.ipynb file within this repository.
-
-<br>
-
-### 3.1 Instructions
-
-Task instructions included here.
-
-<br>
-
-### 3.2 Research
-
-Some research completed into binomial distributions is provided.
-
-<br>
-
-### 3.3 Development
-The three parameters for np.random.binomial(n, p, size) are discussed and some discussion with reference to the task instructions.
-
-- 'n' is the number of trials (how many times the coin will be flipped)
-- 'p' is the probability (1/2 or 50% for a coin toss)
-- 'size' is the number of repeated trials (number of times the trials above is repeated)
-
-<br>
-
-### 3.4 Learnings
-The learnings achieved through the completion of task 3 is documented here.
-
-***
-
-<br>
+*Note: This README includes a high level overview of this project, for full detail of all four tasks refer to the 'Tasks_2020 Fundamentals of Data Analysis.ipynb' jupyter notebook available within this repository.*
