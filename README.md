@@ -1,4 +1,4 @@
-# Tasks_2020-Fundamentals-of-Data-Analysis
+## Tasks_2020-Fundamentals-of-Data-Analysis
 Four tasks were received throughout the semester as part of the module 'Fundamentals of Data Analysis 2020'. All four are completed included in this repository. The four tasks include;
 
 - Task 1_counts
